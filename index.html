@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3796223fc8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="images/logo.png" alt="error" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hello,I'm <span>Shobhit</span><br> kumar from UP</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bg3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        My name is Shobhit Kumar. I graduated with a B.Sc. in Computer Science from
+                        TMU Moradabad, scoring 75%. Currently, I'm pursuing an MCA at TMU Moradabad.I have strong skills
+                        in web development, including HTML, CSS, JavaScript, and various frameworks, which help me
+                        create great web applications.I love keeping up with new technology trends, solving coding
+                        challenges, and working on exciting projects. In my free time, I like contributing to
+                        open-source projects, joining hackathons, and learning new programming languages.
+                        I’m excited about the chance to bring my skills and enthusiasm for technology to your company
+                        and work on innovative projects.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI</span><br>Designing web App</li>
+                            <li><span>web development</span><br>Designing web App</li>
+                            <li><span>App development</span><br>Designing web App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>JUNE 2022</span><br>Internship at B-club IIT kharagpur (Web development)</li>
+                            <li><span>JULY 2022</span><br>Internship at TMU Moradabad (JAVA)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2025(Pursing)</span><br>Master of computer Applications </li>
+                            <li><span>2023</span><br>B.sc(Hons)Computer science from TMU Moradabad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------services---- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p> Looking for professional web design services? Look no further! I specialize in creating dynamic
+                        and responsive websites that not only look great but also provide an excellent user experience.
+                        With a strong foundation in HTML, CSS, JavaScript, and various frameworks, I ensure your website
+                        is both visually appealing and highly functional. Let's work together to bring your vision to
+                        life and make your online presence stand out.</p>
+                    <a href="#">Learn More </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> Need top-notch UI/UX design services? I’m here to help! I specialize in crafting intuitive and
+                        engaging user interfaces that enhance the overall user experience. By leveraging my skills in
+                        user research, wireframing, prototyping, and design tools, I create designs that are not only
+                        visually appealing but also user-friendly and efficient.
+                    </p>
+                    <a href="#">Learn More </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p> Looking for professional app design services? I specialize in creating sleek and user-friendly
+                        app designs that make a lasting impression. With a strong focus on UI/UX principles, I ensure
+                        your app is not only visually appealing but also intuitive and easy to navigate. Let’s work
+                        together to turn your app idea into a stunning and functional reality that users will love.</p>
+                    <a href="#">Learn More </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------portfolio----- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Social media App</h3>
+                        <p>HEllo this is my working Application</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work4.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>this is my music application</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>video player App</h3>
+                        <p>This is my video player application</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see More</a>
+        </div>
+    </div>
+    <!-- ----------contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="content-left">
+                    <h1> <i class="fa-regular fa-paper-plane"></i>contact@gmail.com</h1>
+                    <p> <i class="fa-solid fa-phone"></i>7902024685</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="btn.btn2">Download CV </a>
+                <div class="content-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks)  {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+
+</html>
